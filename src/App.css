@@ -2,9 +2,24 @@
   text-align: center;
 }
 
+.Align-Left {
+  text-align: left;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Lister{
+  width: 30%;
+  border: 2px dotted;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
